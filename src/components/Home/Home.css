@@ -1,0 +1,18 @@
+.home-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+
+.t-shirt-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.cart-container {
+    border: 1px solid goldenrod;
+    border-radius: 15px;
+}
